@@ -326,6 +326,7 @@
     <ClCompile Include="3d\render_instances.cpp">
       <DeploymentContent>false</DeploymentContent>
     </ClCompile>
+    <ClCompile Include="api\c_api.cpp" />
     <ClCompile Include="common\colors.cpp">
       <DeploymentContent>false</DeploymentContent>
     </ClCompile>
@@ -384,6 +385,9 @@
     <ClInclude Include="3d\render_instances.h">
       <DeploymentContent>false</DeploymentContent>
     </ClInclude>
+    <ClInclude Include="api\c_api.h" />
+    <ClInclude Include="api\include\c_api_shared.h" />
+    <ClInclude Include="api\include\dd3d_cpp_api.h" />
     <ClInclude Include="common\circular_buffer.h">
       <DeploymentContent>false</DeploymentContent>
     </ClInclude>
